@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+}
+
+app-sidebar {
+    width: 300px;
+    height: 800px; /* Adjust as needed */
+    /* Add other styles for your sidebar here */
+}
+
+.content {
+    flex-grow: 1;
+    /* Add other styles for your content here */
+}

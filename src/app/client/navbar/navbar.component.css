@@ -1,0 +1,40 @@
+.mat-elevation-light {
+    background-color: #444444;
+  }
+  
+  .smaller {
+    width: 60%;
+    padding-left: 25px;
+  }
+  
+  .mat-toolbar a.texthome,
+  .mat-toolbar a.textabout,
+  .mat-toolbar a.textcontact {
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: medium;
+  }
+  
+  .textabout {
+    left: 180px;
+  }
+  
+  .textcontact {
+    left: 350px;
+  }
+  
+  .mat-raised-button-light {
+    background-color: white;
+    border-bottom: #ba0022;
+    border-radius: 30px;
+    border: 1px solid #ba0022;
+    color: #ba0022;
+    font-family: Comic Sans MS;
+    font-size: medium;
+    height: 38px;
+    width: 132px;
+    left: 35%;
+    top: 3px;
+    display: center;
+  }
+  

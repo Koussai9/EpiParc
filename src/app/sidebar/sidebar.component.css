@@ -1,0 +1,20 @@
+.sidebar {
+    height: 100%;
+    width: 180px;
+    background-color: #444444;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding-top: 100px;
+    color: white; /* Couleur du texte */
+    border-radius: 10px;
+  
+  }
+  
+  .sidebar a {
+    color: white; /* Couleur du texte des liens */
+  }
+  
+  .mat-divider{
+      border-top-width: 1px;
+      border-color: white;
+  }

@@ -1,0 +1,79 @@
+footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 150px; /* Height of the footer */
+    background: #444444;
+    color: white;
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }
+  .smaller {
+    width: 30%;
+    padding-top: 10px;
+  }
+  .footer-content {
+    height: 150px;
+    position: relative;
+    display: flex;
+  }
+  .footer-section {
+    padding: 25px;
+    flex: 1;
+  }
+  .footer-section1 {
+    padding-left: 25px;
+    flex: 1;
+  }
+  .footer-content h2,
+  .footer-content h6 {
+    color: white;
+    font-family: Comic Sans MS;
+    font-size: medium;
+  }
+  .contact span {
+    padding-top: 10px;
+    display: block;
+    font-size: 15px;
+  }
+  .links a {
+    border: 1px solid white;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  .links a:hover {
+    border: 1px solid gray;
+    color: white;
+    transition: all 0.3s;
+  }
+  .contact-input {
+    background:white;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1rem;
+    padding: 0.001% 10px;
+    border-radius: 5px;
+  }
+  .btn-big {
+    padding: 0.1px 1rem;
+    line-height: 1.3rem;
+  }
+  .btn:hover {
+    color: white;
+    background: #111616;
+  }
+  .footer-content a {
+    font-family: Comic Sans MS;
+  }
+  .color {
+    color: white;
+  }
+  

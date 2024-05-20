@@ -1,0 +1,26 @@
+<mat-toolbar class="mat-elevation-z8 mat-elevation-light">
+    <div class="spacer">
+      <img
+        src="assets/img/logo.png"
+        class="img-responsive smaller"
+        size="10px"
+        
+      />
+    </div>
+    <a
+      mat-button
+      class="texthome"
+      [routerLink]="'/home'"
+      routerLinkActive="list-item-active"
+      >HOME</a
+    >
+    <a mat-button class="textabout" [routerLink]="'/aboutus'">ABOUT US</a>
+    <a mat-button  class="textcontact" [routerLink]="'/contact'">CONTACT</a>
+    <a
+      mat-raised-button
+      class="mat-raised-button-light mat-raised-button text"
+      [routerLink]="'/login'"
+      ><b>LOGIN</b></a
+    >
+  </mat-toolbar>
+  

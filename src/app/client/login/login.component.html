@@ -1,0 +1,26 @@
+<div class="container main-content">
+  <div class="row align-items-center">
+    <!-- Login Form Column -->
+    <div class="col-md-6 form-column">
+      <form (ngSubmit)="login()">
+        <!-- Email input -->
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleInputEmail1" [(ngModel)]="user.email" name="email" placeholder="Enter your email" required />
+        </div>
+        <!-- Password input -->
+        <div class="mb-3">
+          <input type="password" class="form-control" id="exampleInputPassword1" [(ngModel)]="user.password" name="password" placeholder="Enter your password" required />
+        </div>
+        <!-- Submit button and signup link -->
+        <div class="action-container">
+          <button type="submit" class="btn btn-primary">Login</button>
+          <a routerLink="/signup" class="signup-link">New user? Click to signup!</a>
+        </div>
+      </form>
+    </div>
+    <!-- Image Column -->
+    <div class="col-md-6 image-column">
+      <img src="assets/img/login.png" class="img-fluid" alt="Login Illustration" />
+    </div>
+  </div>
+</div>

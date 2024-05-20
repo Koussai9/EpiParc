@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+}
+
+app-sidebar {
+    width: 300px;
+    height: 480px; /* Adjust as needed */
+    /* Add other styles for your sidebar here */
+}
+
+
+.card-header {
+    text-align: center;
+  }
+  .content {
+    flex-grow: 1;
+    /* Add other styles for your content here */
+    padding: 6px; /* Add padding for aesthetic spacing */
+    max-width: 1000px;
+}
+
+.map-container {
+    width: 100%; /* Ensures the container takes up all the available content width */
+}
+
+.card-body {
+    display: flex;
+    justify-content: center; /* Center the grid in the card body if there's additional space */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    overflow-y: auto; /* Allows for vertical scrolling */
+    max-height: 440px; /* Set a maximum height for the scrolling area */
+}
+.images-grid {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping of items */
+    justify-content: flex-start; /* Align items to the start of the container */
+    gap: 10px; /* Space between items */
+}
+.image-item {
+    width: calc(33.333% - 10px); /* Subtract the gap from the width */
+    flex-grow: 0;
+    flex-shrink: 0;
+    cursor: pointer; /* Indicates the item is clickable */
+    transition: border 0.3s ease; /* Smooth transition for the border */
+}
+
+.image-item.selected {
+    border: 2px solid #007bff; /* Highlight border for the selected image */
+}
+
+.image-container {
+    display: flex; /* Aligns images in a row */
+}
+
+.image-wrapper {
+    margin-right: 10px; /* Adds space between images */
+    flex: 0 0 auto; /* Prevents the images from stretching or shrinking */
+}
+
+/* Style your images appropriately */
+img {
+    width: 100%; /* Make images fill their containers */
+    height: auto; /* Keep the original aspect ratio */
+    display: block; /* Remove bottom margin/padding */
+}
+
+/* Clear margins and padding for the body to make full use of the screen */
+body {
+    margin: 0;
+    padding: 0;
+}

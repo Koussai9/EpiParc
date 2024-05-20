@@ -1,0 +1,41 @@
+<div class="container">
+    <app-sidebar></app-sidebar>
+    <div class="content">
+        <div class="main-container">
+            <div class="map-container">
+                <div class="card">
+                    <div class="card-header">
+                       Live Coordinates
+                    </div>
+                    <div class="card-body">
+                        <!-- Flex container for both coordinates -->
+                        <div class="coordinates-container">
+                            <div class="coordinate">
+                                <label for="latitude">Latitude:</label>
+                                <input type="text" id="latitude" [(ngModel)]="latitude" readonly>
+                            </div>
+                            <div class="coordinate">
+                                <label for="longitude">Longitude:</label>
+                                <input type="text" id="longitude" [(ngModel)]="longitude" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="map-container">
+                <div class="card">
+                    <div class="card-header">
+                        Live Location
+                    </div>
+                    <div class="card-body">
+                        <div #mapContainer id="map-canvas" class="map-canvas"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    
+

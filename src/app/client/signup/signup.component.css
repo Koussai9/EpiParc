@@ -1,0 +1,80 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Assuming you have <nav> and <footer> elements in your actual HTML document */
+ 
+  
+  .main-content {
+    flex-grow: 1; /* Grow to take available space */
+    background-color: #ba0022; /* Red background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    max-width: 1200px; /* Or your preferred max width */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; /* Or your preferred padding */
+  }
+  .action-container {
+    text-align: center; /* Center its children */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #ba0022;
+    border: none; /* Removes the border */
+    margin-top: 10px; /* Margin above the button */
+    cursor: pointer; /* Shows a pointer cursor on hover */
+    text-transform: uppercase; /* Optional: Transforms text to uppercase */
+    font-weight: bold; /* Optional: Makes the font bold */
+    width: auto; /* Resets any previous width definition */
+  }
+  
+  /* Signup link styling */
+  .signup-link {
+    color: white;
+    text-decoration: none;
+    margin-top: 15px; /* Space above the signup link */
+    display: block; /* Ensures the link is on a new line */
+  }
+  
+  /* Image styling */
+  .img-fluid {
+    max-width: 120%; /* Adjust the size of the image as needed */
+    height: auto; /* Keeps the aspect ratio of the image */
+  }
+  
+  /* Add custom properties for navbar and footer heights */
+  
+  /* Additional styles remain unchanged */
+  
+  /* Ensure the card expands correctly on all devices */
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .form-section, .image-section {
+      width: 100%;
+    }
+  }
+  /* Custom class for Toastr */

@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    /* Height of the header/navbar or make it flexible */
+  }
+  
+  main {
+    flex: 1; /* Takes up all available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content-form vertically */
+  }
+  
+  .contact-form {
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Maximum width, adjust as needed */
+    height: 500PX;
+    margin: auto; /* Center in the available space */
+    padding: 13px;
+    border: 3px solid #ba0022;
+    box-shadow: 10px 10px 10px 10px rgba(238, 129, 129, 0.25);
+    background-color: white;
+  }
+  
+  footer {
+    /* Height of the footer or make it flexible */
+  }
+  
+
+  .image-content {
+    flex-basis: 20%; /* This defines the initial size of the image container */
+    padding: 13px; /* Adjust padding as needed */
+    /* Other styles... */
+  }
+  
+  .image-content img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 200px !important; /* Adjust this as needed */
+  }
+  
