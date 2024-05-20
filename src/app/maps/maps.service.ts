@@ -14,7 +14,7 @@ export class MapsService {
         return;
       }
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyB6ee91E7fnakSo1atMPMntZOTGoNrv6hs`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=`;
       script.async = true;
       script.defer = true;
       document.head.appendChild(script);
