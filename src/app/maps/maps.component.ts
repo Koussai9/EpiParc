@@ -18,7 +18,7 @@ export class MapsComponent implements OnInit {
 
   ngOnInit(): void {
     let loader = new Loader({
-      apiKey: 'AIzaSyB6ee91E7fnakSo1atMPMntZOTGoNrv6hs',
+      apiKey: '',
       libraries: ['places']
     });
 
